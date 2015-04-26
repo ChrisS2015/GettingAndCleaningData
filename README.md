@@ -13,24 +13,43 @@ Coursera Data Science Track - Getting and cleaning data course project
 
  Column Name
  ------ ---------------------------
+ 
  201    tBodyAccMag-mean()
+ 
  202    tBodyAccMag-std()
+ 
  214    tGravityAccMag-mean()
+ 
  215    tGravityAccMag-std()
+ 
  227    tBodyAccJerkMag-mean()
+ 
  228    tBodyAccJerkMag-std()
+ 
  240    tBodyGyroMag-mean()
+ 
  241    tBodyGyroMag-std()
+ 
  253    tBodyGyroJerkMag-mean()
+ 
  254    tBodyGyroJerkMag-std()
+ 
  503    fBodyAccMag-mean()
+ 
  504    fBodyAccMag-std()
+ 
  516    fBodyBodyAccJerkMag-mean()
+ 
  517    fBodyBodyAccJerkMag-std()
+ 
  529    fBodyBodyGyroMag-mean()
+ 
  530    fBodyBodyGyroMag-std()
+ 
  542    fBodyBodyGyroJerkMag-mean()
+ 
  543    fBodyBodyGyroJerkMag-std()
+
 
  For details of the datasets see the README.txt in the source data package
  which can be downloaded from:
@@ -61,7 +80,7 @@ Coursera Data Science Track - Getting and cleaning data course project
 
 ./UCI HAR Dataset/activity_labels.txt provides the label which describes each activity 
 
- The main task for the script is to select the columns specified from the test and training results files and combine them as a single data table.  Whilst doing this it will also lookup the subject fo each set of results and the description for the relevant activity and include those in the combined data table.
+ The main task for the script is to select the columns specified from the test and training results files and combine them as a single data table.  Whilst doing this it will also lookup the subject for each set of results and the description for the relevant activity and include those in the combined data table.
 
  Once the data is in a single data table it needs to be tidied up before creating the final output file.
 
